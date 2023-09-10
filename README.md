@@ -9,7 +9,7 @@
 
 
 1. Git clone <URL> などでファイルを用意する
-2. vi /etc/systemd/system/{serviceName}.service
+2. vi /etc/systemd/system/{serviceName}.service  
 iを押して編集モードへ
 ```
 [Unit]
@@ -40,7 +40,8 @@ Restart=always
 [Install]
 WantedBy=multi-user.target
 ```
-編集し終わったら Esc :wq で保存して退出
+編集し終わったら  
+Esc :wq で保存して退出
 
 3. systemctl enable {serviceName}.service
 4. systemctl start {serviceName}.service
