@@ -47,3 +47,5 @@ Esc :wq で保存して退出
 4. systemctl start {serviceName}.service
 
 以上！
+
+ubuntuへのNodeの入れ方がわからん人は[これ](https://github.com/yuyutti/node_install)見てもろて
